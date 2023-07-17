@@ -12,14 +12,14 @@ import Slider from "react-slick";
 const Testimonial = ({
   name,
   title,
-  bgImage = "url(https://source.unsplash.com/GhKOvIAp7AE)",
+  bgImage = "https://source.unsplash.com/GhKOvIAp7AE",
 }) => {
   const [isOpen, setOpen] = useState(false);
-  const buttonClasses = `flex justify-center items-center min-w-full h-[200px] rounded-3xl md:rounded-[2rem] bg-no-repeat bg-center bg-cover bg-[#00000076] bg-[${bgImage}]  bg-blend-soft-light`;
+  const buttonClasses = `flex justify-center items-center min-w-full h-[200px] rounded-3xl md:rounded-[2rem] bg-no-repeat bg-center bg-cover bg-[#00000076] bg-blend-soft-light`;
 
   return (
     <div className="px-4 relative">
-      <button className={buttonClasses} onClick={() => setOpen(!isOpen)}>
+      <button className={buttonClasses} style={{backgroundImage: `url(${bgImage})`}} onClick={() => setOpen(!isOpen)}>
         <div className="flex justify-center items-center rounded-full p-2 bg-red-600">
           <BsYoutube size={"1.5rem"} color="white" />
         </div>
