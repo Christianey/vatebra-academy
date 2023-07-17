@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  background-image: -webkit-gradient(
+    linear,
+    40% 0%,
+    75% 84%,
+    from(#4d9c41),
+    to(#b12424),
+    color-stop(0.6, #e6ff07)
+  );
+}
+
+@font-face {
+  font-family: DaxlineProBlack;
+  src: url("../Assets/fonts/DaxlinePro/DaxlinePro-Black.ttf");
+}
+
+@font-face {
+  font-family: DaxlineProBold;
+  src: url("../Assets//fonts/DaxlinePro/DaxlinePro-Bold.ttf");
+}
+
+@font-face {
+  font-family: DaxlineProExtraBold;
+  src: url("../Assets/fonts/DaxlinePro/DaxlinePro-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: DaxlineProLight;
+  src: url("../Assets/fonts/DaxlinePro/DaxlinePro-Light.ttf");
+}
+
+@font-face {
+  font-family: DaxlineProMedium;
+  src: url("../Assets/fonts/DaxlinePro/DaxlinePro-Medium.ttf");
+}
+
+@font-face {
+  font-family: DaxlineProRegular;
+  src: url("../Assets/fonts/DaxlinePro/DaxlinePro-Regular.ttf");
+}
+
+@font-face {
+  font-family: DaxlineProThin;
+  src: url("../Assets/fonts/DaxlinePro/DaxlinePro-Thin.ttf");
+}
+
+
+.bg {
+ 
+
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 1) 20%, hsla(97, 57%, 93%, 1) 63%);
+
+  
+}

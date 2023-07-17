@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1029" height="289" viewBox="0 0 1029 289">
+  <g id="Group_1278" data-name="Group 1278" transform="translate(-427.533 -923.54)">
+    <rect id="Rectangle_199" data-name="Rectangle 199" width="1029" height="289" transform="translate(427.534 923.54)" fill="#5cbf22"/>
+    <g id="Group_1277" data-name="Group 1277" transform="translate(428 940.567)">
+      <g id="Component_26_9" data-name="Component 26 – 9" transform="translate(778.534 -0.027)">
+        <rect id="Rectangle_197" data-name="Rectangle 197" width="249" height="255" transform="translate(0 0)" fill="#f8f8f8"/>
+        <g id="Group_1274" data-name="Group 1274" transform="translate(53.382 78.233)">
+          <text id="_19K_" data-name="19K+" transform="translate(70.618 39.767)" font-size="41" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="-48.729" y="0">19K+</tspan></text>
+          <text id="Students_Trained" data-name="Students Trained" transform="translate(64.618 74.767)" font-size="17" font-family="SegoeUI, Segoe UI" opacity="0.668"><tspan x="-62.322" y="0">Students Trained</tspan></text>
+        </g>
+      </g>
+      <g id="Component_26_10" data-name="Component 26 – 10" transform="translate(519.534 -0.027)">
+        <rect id="Rectangle_197-2" data-name="Rectangle 197" width="249" height="255" fill="#f8f8f8"/>
+        <g id="Group_1274-2" data-name="Group 1274" transform="translate(53.383 78.233)">
+          <text id="_94_" data-name="94%" transform="translate(70.618 39.767)" font-size="41" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="-45.428" y="0">94%</tspan></text>
+          <text id="Completed_Training" data-name="Completed Training" transform="translate(64.618 74.767)" font-size="17" font-family="SegoeUI, Segoe UI" opacity="0.668"><tspan x="-73.462" y="0">Completed Training</tspan></text>
+        </g>
+      </g>
+      <g id="Component_26_11" data-name="Component 26 – 11" transform="translate(259.533 -0.027)">
+        <rect id="Rectangle_197-3" data-name="Rectangle 197" width="249" height="255" fill="#f8f8f8"/>
+        <g id="Group_1274-3" data-name="Group 1274" transform="translate(53.383 78.233)">
+          <text id="_25" data-name="25" transform="translate(70.618 39.767)" font-size="41" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="-24.723" y="0">25</tspan></text>
+          <text id="Major_Partners" data-name="Major Partners" transform="translate(64.618 74.767)" font-size="17" font-family="SegoeUI, Segoe UI" opacity="0.668"><tspan x="-54.727" y="0">Major Partners</tspan></text>
+        </g>
+      </g>
+      <g id="Component_26_12" data-name="Component 26 – 12" transform="translate(-0.467 -0.027)">
+        <rect id="Rectangle_197-4" data-name="Rectangle 197" width="249" height="255" fill="#f8f8f8"/>
+        <g id="Group_1274-4" data-name="Group 1274" transform="translate(53.383 78.233)">
+          <text id="_600_" data-name="600+" transform="translate(70.618 39.767)" font-size="41" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="-53.915" y="0">600+</tspan></text>
+          <text id="Project_Completed" data-name="Project Completed" transform="translate(64.618 74.767)" font-size="17" font-family="SegoeUI, Segoe UI" opacity="0.668"><tspan x="-69.731" y="0">Project Completed</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="179" height="69.806" viewBox="0 0 179 69.806">
+  <g id="Group_1337" data-name="Group 1337" transform="translate(-43 -13.194)">
+    <g id="Rectangle_202" data-name="Rectangle 202" transform="translate(43 30)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="171" height="53" rx="26.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="170" height="52" rx="26" fill="none"/>
+    </g>
+    <g id="Group_1334" data-name="Group 1334" transform="translate(-5.5 -1)">
+      <text id="N150_000" data-name="N150,000" transform="translate(129 58)" fill="rgba(0,0,0,0.7)" font-size="25" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-54.211" y="0">N150,000</tspan></text>
+      <path id="Path_2046" data-name="Path 2046" d="M0,0H129" transform="translate(64.5 50.694)" fill="none" stroke="#cb1829" stroke-width="2"/>
+      <text id="N60_000" data-name="N60,000" transform="translate(164.5 75.194)" fill="#6e6e6e" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-26.465" y="0">N60,000</tspan></text>
+      <text id="Pay" transform="translate(122.5 75.194)" fill="#6e6e6e" font-size="14" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-12.455" y="0">Pay</tspan></text>
+    </g>
+    <circle id="Ellipse_88" data-name="Ellipse 88" cx="17" cy="17" r="17" transform="translate(188 13.194)" fill="#cb1829"/>
+    <text id="_40_" data-name="40%" transform="translate(194 21.194)" fill="#fff" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="11">40%</tspan></text>
+  </g>
+</svg>

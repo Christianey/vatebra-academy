@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90.03" height="64.744" viewBox="0 0 90.03 64.744">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2018" data-name="Path 2018" d="M117.177,91.138V102.5l7.862-8.955V82.183Zm23.294-5.426,7.862,5.315V81.977l-7.862-5.315ZM188.9,60.425l-19.714,3.929a2.406,2.406,0,0,0-1.1,4.18L174.5,74.08l-10.74,12.657V98.232a3.7,3.7,0,0,0,.484-.476l15.93-18.774,6.6,5.7a2.406,2.406,0,0,0,3.976-1.7l1.022-20.076a2.407,2.407,0,0,0-2.4-2.529,2.44,2.44,0,0,0-.475.047" transform="translate(-117.177 -60.378)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.791" y1="1.83" x2="-0.783" y2="1.83" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e2e21e"/>
+      <stop offset="0.132" stop-color="#e8e828"/>
+      <stop offset="0.505" stop-color="#e8e828"/>
+      <stop offset="0.808" stop-color="#e8ac28"/>
+      <stop offset="1" stop-color="#e8ac28"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Path_2020" data-name="Path 2020" d="M96.6,78.53a4.122,4.122,0,0,0-4.122,4.122v35.629H107.91V82.652a4.122,4.122,0,0,0-4.122-4.122Zm23.293-12.5a4.122,4.122,0,0,0-4.122,4.122v48.126H131.2V70.156a4.122,4.122,0,0,0-4.122-4.122Zm23.294-12.5a4.122,4.122,0,0,0-4.122,4.122v60.622H154.5V57.659a4.122,4.122,0,0,0-4.122-4.122Z" transform="translate(-92.479 -53.537)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1142" data-name="Group 1142" transform="translate(15.431 4.274)">
+    <g id="Group_1141" data-name="Group 1141" clip-path="url(#clip-path)">
+      <rect id="Rectangle_138" data-name="Rectangle 138" width="85.645" height="75.273" transform="matrix(0.848, -0.53, 0.53, 0.848, -18.923, 11.813)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_1148" data-name="Group 1148">
+    <g id="Group_1147" data-name="Group 1147" clip-path="url(#clip-path-2)">
+      <image id="Rectangle_141" data-name="Rectangle 141" width="62.481" height="64.98" transform="translate(-0.299 -0.086)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABoCAYAAAAHIFUvAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAZKADAAQAAAABAAAAaAAAAADJgxF6AAAB3klEQVR4Ae3ciW3DQAxFQSVw/4WmgpxWlq5iAD5X8MERuYdlv933/XH1YSrwOEk+mTQFuQbkqzo4FahDHItXkjoEBPnGMq2OMx0SCPQIDMgPlGd9lDoEewQG5BfLtDpOIBh/IIFgFcDiTIf8YZlWxwkE4x+QJ5ZpdZxAMP5AAsEqgMWZDrmxTKvjNLIw/ncsz/o4jSzsEQgEA2lkYSB1CAZShwSCVQCLU4cEglUAi1OHBIJVAItThwSCVQCLU4dgIJ3UMZA6JBCsAlicOiQQrAJYnMf5nXovOUAojSwIY6IEEghWASxOB0MMpJEVCFYBLE4jCwNpZGEgdYgG0kHdEqlDLI9O6phHIBpIIwsTCUQDaZdlidQhlkeLOubx+iPlvsKFVLrLgjAmSmuIBtJbJ5ZII8vyaGRhHm17NZDeXMRE2mUFglUAi9MuCwNpZGkgHQwtkTrE8ugcgnl0UudAWkMsktYQy6ORhXlcc5elZVqdp5GF8QcSCFYBLE7fh2ggJ0+rOoTSGgJhTJRGlgZy8jSyIJRGFoQxUQLRQLrttUTqEMujkYV5tO3lQE6gtr2QSmsIhDFROqlrICdPIwtCqUMgjInSGhIIVgEszoysJ5ZpdZxGFsYfiAbSba8l8g/OL3uRkj+C/QAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+</svg>
