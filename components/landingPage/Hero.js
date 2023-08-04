@@ -34,7 +34,7 @@ const Hero = () => {
           with years of experience in the field. The curriculum for our courses is tailored to match industry standards,
           with an emphasis on practical, hands-on skills learning.
         </h1>
-           <button onClick={handleClick} className='bg-[#D40E1F] md:w-[max-content] py-2 px-24 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold'>Get started</button>  
+        <Link href='/GetStarted' className='bg-[#D40E1F] md:w-[max-content] py-2 px-24 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold'>Get started</Link>  
       </div>
 
       <div className='z-[10000]'>

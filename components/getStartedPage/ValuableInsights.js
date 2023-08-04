@@ -19,7 +19,7 @@ const ValuableInsights = () => {
                 </h1>
                 <h1 className=' font-daxlineMedium text-md'>Vatebra academy is incorporated in Nigeria with Registration Number 2594621 on the 6th of April 2018.</h1>
 
-                <Link href="/">
+                <Link href="/GetStarted">
                     <button className='bg-[#D40E1F] md:w-[max-content] py-3 md:px-24 px-20 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold'>Get started</button> 
                 </Link> 
           </div>

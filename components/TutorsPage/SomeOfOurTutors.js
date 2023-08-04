@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const TutorCard = ({ img, lastName, firstName }) => {
+const TutorCard = ({ img, lastName, firstName, bio, faculty, linkedinUrl }) => {
   return (
     <div className="flex items-center gap-5 w-96 bg-white p-3 rounded-3xl">
       <div className="flex flex-col shrink-0 basis-[30%] justify-between self-stretch">
@@ -13,26 +13,22 @@ const TutorCard = ({ img, lastName, firstName }) => {
           className="rounded-lg"
         />
 
-        <div className="">
+        <a href={linkedinUrl} target="_blank">
+          <div className="">
             <p className="font-bold leading-3 text-[1.3rem]">{lastName}</p>
             <p>{firstName}</p>
-        </div>
+          </div>
+        </a>
       </div>
       <div className="flex flex-col gap-3 ">
         <div>
           <h1 className=" font-daxlineBold text-sm">About Me</h1>
-          <h1 className=" font-daxlineRegular text-sm">
-            I'm a Product Designer who enjoys creating innovative and beautiful
-            user interfaces. My area of expertise is performing user research
-            that leads to better user experiences on existing products.
-          </h1>
+          <h1 className=" font-daxlineRegular text-sm">{bio}</h1>
         </div>
 
         <div>
-          <h1 className=" font-daxlineBold text-sm">Tools</h1>
-          <h1 className=" font-daxlineRegular text-sm">
-            Axure, Figma, Node.JS
-          </h1>
+          <h1 className=" font-daxlineBold text-sm">Faculty</h1>
+          <h1 className=" font-daxlineRegular text-sm">{faculty}</h1>
         </div>
       </div>
     </div>
@@ -56,30 +52,98 @@ const SomeOfOurTutors = () => {
 
       <div className="flex flex-col xl:flex-row gap-7 justify-center flex-wrap items-center mt-20">
         <TutorCard
-          img={"Abisola Fowosire.jpg"}
-          lastName={"Abisola"}
-          firstName={"Fowosire"}
+          img={"Raphael-Okojie.jpg"}
+          lastName={"Raphael"}
+          firstName={"Okojie"}
+          bio={
+            " I'm a Product Designer who enjoys creating innovative and beautiful user interfaces. My area of expertise is performing user research that leads to better user experiences on existing products."
+          }
+          faculty={"Design Academy"}
+          linkedinUrl="https://www.linkedin.com/in/rafreo"
         />
         <TutorCard
-          img={"Benedict Olakunle.jpg"}
-          lastName={"Olakunle"}
-          firstName={"Benedict"}
+          img={"Gbemisola-Owolabi.jpg"}
+          lastName={"Gbemisola"}
+          firstName={"Owolabi"}
+          bio={
+            "I am passionate about creating innovative and user-friendly products that are both aesthetically pleasing and highly functional. I enjoy the creative process of ideation and prototyping."
+          }
+          faculty={"Design Academy"}
+          linkedinUrl={
+            "https://www.linkedin.com/in/owolabi-gbemisola-802a87135"
+          }
         />
         <TutorCard
-          img={"Busayo Ajakaiye.jpg"}
-          lastName={"Ajakaiye"}
-          firstName={"Busayo"}
+          img={"Joy Itua__.jpg"}
+          lastName={"Joy"}
+          firstName={"Itua"}
+          bio={
+            "I am a UX designer interested in solving problems and designing meaningful and engaging products to meet users' needs by improving the user experience while impacting the company's growth. "
+          }
+          faculty={"Design Academy"}
+          linkedinUrl={"https://www.linkedin.com/in/joy-itua-176962176"}
         />
         <TutorCard
-          img={"Robert Ogirri.jpg"}
-          lastName={"Ogirri"}
-          firstName={"Robert"}
+          img={"Ricky Omoareghan.jpg"}
+          lastName={"Ricky"}
+          firstName={"Omoareghan "}
+          bio={
+            " I am fascinated by the Future Of Work in Data Capabilities, Artificial Intelligence, Machine Learning, and Web 3.0. I have supported the building of Africa's First Omni-commerce digitalized platform for Global Retailers and further pivoted it to a platform that powers African retail sales for global brands. "
+          }
+          faculty={"Product Management Academy"}
+          linkedinUrl={"https://www.linkedin.com/in/ricky-omoareghan"}
         />
         <TutorCard
+          img={"Bode Maxwell-Akinyemi.jpg"}
+          lastName={"Bode"}
+          firstName={"Maxwell-Akinyemi"}
+          bio={
+            "He is a certified Project and Product Manager with close to a decade of experience in Technology Education, Social Entrepreneurship, and product development, with broad-band knowledge of in-demand technology conversations from Data Science, Product/ Software Development, IoTs (Internet of Things), AI to Web 3"
+          }
+          faculty={"Product Management Academy"}
+          linkedinUrl={"https://www.linkedin.com/in/bodemaxwell-akinyemi"}
+        />
+
+        <TutorCard
+          img={"Ifeanyi Okondu.jpg"}
+          lastName={"Ifeanyi"}
+          firstName={"Okondu"}
+          bio={
+            " I’m a certified product manager and freelance tech content writer with a broad grounding in digital marketing, SEO, and content management. As a product manager, I help founders and companies develop viable products through in-depth market research, idea stress testing, and viability assessment."
+          }
+          faculty={"Product Management Academy"}
+          linkedinUrl={"https://www.linkedin.com/in/joy-itua-176962176"}
+        />
+
+        <TutorCard
+          img={"Oluwatosin Alo.jpg"}
+          lastName={"Oluwatosin"}
+          firstName={"Alo"}
+          bio={
+            "An Agricultural and Bioresources Engineer with two years experience. A graduate member of the Nigeria Society of Engineers (GMNSE). Certified Product Manager. Health, Safety and Environment Officer ( Level I, II and III)"
+          }
+          faculty={"Design Academy"}
+          linkedinUrl={"https://www.linkedin.com/in/joy-itua-176962176"}
+        />
+
+        <TutorCard
+          img={"Adedotun Alausa.jpeg"}
+          lastName={"Adedotun"}
+          firstName={"Alausa"}
+          bio={
+            "I design systems, develop applications and design cloud architectures. Mechanical engineering thought me a lot and I owe a lot of my soft skills to the period spent working as a mechanical engineer. Moreover, software engineering has also offered an opportunity to constantly learn and improve my skills in solving technical problems and communicating effectively."
+          }
+          faculty={"Software Development"}
+          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+        />
+        {/* <TutorCard
           img={"Waliyulahi Lukman.jpg"}
-          lastName={"Lukman"}
-          firstName={"Waliyulahi"}
-        />
+          lastName={"Olamilekan"}
+          firstName={"Animashaun"}
+          bio={"A seasoned professional with 10yrs+ in Software development and engineering. CTO, Caudal and Ex- Engineering Team Lead, CARS45"}
+          faculty={"Software Development"}
+          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+        /> */}
       </div>
     </div>
   );

@@ -32,7 +32,7 @@ const ThridSection = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </Link>
-                                    <Link target='_blank' href='https://paystack.com/pay/f7jf3lscts' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
+                                    <Link target='_blank' href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
                                 </div>
                             </div>
 
@@ -48,7 +48,7 @@ const ThridSection = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </Link>
-                                    <Link target='_blank' href='https://paystack.com/pay/f7jf3lscts' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>                        
+                                    <Link target='_blank' href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>                        
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ const ThridSection = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </Link>
-                                    <Link target='_blank' href='https://paystack.com/pay/f7jf3lscts' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
+                                    <Link target='_blank' href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
                                 </div>
                             </div>
 
@@ -80,7 +80,7 @@ const ThridSection = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </Link>
-                                    <Link target='_blank' href='https://paystack.com/pay/f7jf3lscts' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
+                                    <Link target='_blank' href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
                                 </div>
                             </div>
                         </div>

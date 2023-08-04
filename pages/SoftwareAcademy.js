@@ -72,7 +72,7 @@ const SoftwareAcademy = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </Link>
-                                    <h1 className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</h1>
+                                    <Link href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
                                 </div>
                             </div>
                             
@@ -87,7 +87,7 @@ const SoftwareAcademy = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </Link>
-                                    <h1 className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</h1>
+                                    <Link href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ const SoftwareAcademy = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </Link>
-                                    <h1 className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</h1>
+                                    <Link href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
                                 </div>
                             </div>
                             
@@ -119,7 +119,7 @@ const SoftwareAcademy = () => {
                                         <h1 className=''>Download brochure</h1>
                                         <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                                     </div>
-                                    <h1 className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</h1>
+                                    <Link href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
                                 </div>
                             </div>
                         </div>

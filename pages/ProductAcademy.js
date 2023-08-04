@@ -41,7 +41,7 @@ const ProductAcademy = () => {
                                  <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                             </Link>
                             {/* <h1 onClick={()=> setShowModal(!showModal)} className='bg-[#D40E1F] mx-auto md:mx-0 text-white hover:bg-black font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</h1> */}
-                            <Link href='https://paystack.com/pay/f7jf3lscts' className='bg-[#D40E1F] mx-auto md:mx-0 text-white hover:bg-black font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
+                            <Link href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u' className='bg-[#D40E1F] mx-auto md:mx-0 text-white hover:bg-black font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</Link>
 
                         </div>
                     </div>

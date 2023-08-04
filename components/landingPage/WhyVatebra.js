@@ -34,9 +34,9 @@ const WhyVatebra = () => {
                     </div>
 
                 </div>
-                <Link href='/Tutors'>
+                {/* <Link href='/Tutors'>
                     <Image  className='hidden xl:block pl-5 my-40' src='/aboutmeBg.svg' width={1300} height={401} alt="Why Background Image" />
-                </Link>
+                </Link> */}
             </div>
 
         </div>
