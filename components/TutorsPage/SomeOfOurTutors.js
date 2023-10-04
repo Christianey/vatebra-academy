@@ -26,7 +26,7 @@ const TutorCard = ({ img, lastName, firstName, bio, faculty, linkedinUrl }) => {
           <h1 className=" font-daxlineRegular text-sm">{bio}</h1>
         </div>
 
-        <div >
+        <div>
           <h1 className=" font-daxlineBold text-sm">Faculty</h1>
           <h1 className=" font-daxlineRegular text-sm">{faculty}</h1>
         </div>
@@ -112,7 +112,7 @@ const SomeOfOurTutors = () => {
             " I’m a certified product manager and freelance tech content writer with a broad grounding in digital marketing, SEO, and content management. As a product manager, I help founders and companies develop viable products through in-depth market research, idea stress testing, and viability assessment."
           }
           faculty={"Product Management Academy"}
-          linkedinUrl={"https://www.linkedin.com/in/joy-itua-176962176"}
+          linkedinUrl={"https://linkedin.com/in/ifeanyi-joseph-okondu"}
         />
 
         <TutorCard
@@ -123,7 +123,7 @@ const SomeOfOurTutors = () => {
             "An Agricultural and Bioresources Engineer with two years experience. A graduate member of the Nigeria Society of Engineers (GMNSE). Certified Product Manager. Health, Safety and Environment Officer ( Level I, II and III)"
           }
           faculty={"Design Academy"}
-          linkedinUrl={"https://www.linkedin.com/in/joy-itua-176962176"}
+          linkedinUrl={"https://www.linkedin.com/in/oluwatosin-alo-b13414194"}
         />
 
         <TutorCard
@@ -143,7 +143,9 @@ const SomeOfOurTutors = () => {
           firstName={"Animashaun"}
           bio={"CTO, Caudal and Ex- Engineering Team Lead, CARS45"}
           faculty={"Software Development"}
-          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+          linkedinUrl={
+            "https://www.linkedin.com/in/olalekan-animashaun-b0b34b2b"
+          }
         />
 
         <TutorCard
@@ -154,7 +156,6 @@ const SomeOfOurTutors = () => {
             "A software developer highly proficient in C#, ASP.NET, Restful Services, .NetCore, Solid principle, Microservices & SQL. An excellent communicator, who can relate well with people at all levels and has the flexibility of working well as part of a team and on my own."
           }
           faculty={"Software Development"}
-          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
         />
 
         <TutorCard
@@ -165,7 +166,6 @@ const SomeOfOurTutors = () => {
             " I am a business and data analyst. I love using data analysis and its insights to drive software projects that innovates business processes for organizations."
           }
           faculty={"Data"}
-          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
         />
 
         <TutorCard
@@ -176,7 +176,7 @@ const SomeOfOurTutors = () => {
             " I'm passionate about leveraging data to inform business decisions and drive growth. I possess a solid foundation in statistical analysis and data visualization, I excel at translating complex data into actionable insights that inform strategy and improve operations. "
           }
           faculty={"Data"}
-          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+          linkedinUrl={"https://www.linkedin.com/in/mariam-adekanye"}
         />
 
         <TutorCard
@@ -187,7 +187,7 @@ const SomeOfOurTutors = () => {
             "i am a Dedicated and passionate HR/Data Analytics Enthusiast with a demonstrated history of working and volunteering in organization development. Skilled in HR Analytics with Microsoft Excel and Power BI, recruitment process, training and development, program coordination, policies development and employee relations with effective data management. Focused on integrating technology and HR functions to build a robust strategic HR system. "
           }
           faculty={"Data"}
-          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+          linkedinUrl={"https://www.linkedin.com/in/ogundipe-olanrewaju-sodiq"}
         />
 
         <TutorCard
@@ -198,7 +198,7 @@ const SomeOfOurTutors = () => {
             "A Tableau Developer and data analyst who is interested in helping organizations tell stories from any form of data. I have spent the 3+ years building my skills through work experiences and staying updated within the analytics industry. I am skilled in using Tableau, R, SQL & Excel to make sense out of a large data set. Growing every day is a priority for me, so I engage myself by reviewing thought leadership articles within my space."
           }
           faculty={"Data"}
-          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+          linkedinUrl={"https://www.linkedin.com/in/chisomezeilo"}
         />
       </div>
     </div>
