@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Slider from "react-slick";
 import styles from "./TestimonialVideos.module.css";
+import "slick-carousel/slick/slick.css";
 
 const Testimonial = ({ name, academy, testimony, image }) => {
   return (
