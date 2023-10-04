@@ -12,8 +12,8 @@ const Footer = () => {
         <Link className="" href="/">
             <Image src="/logo.svg" height={10} width={160} alt="Vatebra Logo" className="" />
         </Link>
-
-        <p>5th Floor, ICAN Building, <br />Muritala  Muhammed Way,  <br /> Ebute-Metta, Lagos</p>
+        <h1>Plot 1187, Abimbola Awoniyi Close, Off Kasumu Ekemode Str, Via <br /> Saka Tinubu  Street,Victoria Island, Lagos, Nigeria.</h1>
+      
 
         <div>
           <h1>E: E: academy@vatebra.com</h1>
@@ -49,7 +49,7 @@ const Footer = () => {
               </a>
               <a className='flex items-center gap-4' href='#'>
                 <Image height={21} width={16} src="/locationLogo.svg" alt='Phone logo' />
-                <h1>Plot 1187, Abimbola Awoniyi Close, Off Kasumu Ekemode Str, Via <br /> Saka Tinubu  Street,Victoria Island, Lagos, Nigeria.</h1>
+                <p>5th Floor, ICAN Building, <br />Muritala  Muhammed Way,  <br /> Ebute-Metta, Lagos</p>
               </a>
             
             </div>

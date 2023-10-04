@@ -26,7 +26,7 @@ const MasterClass = () => {
           />
         </div>
 
-        <a target='_blank' href='https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUQ0lEWllQVERJWVdTWFdUODlTQllCNlZRVS4u' className='bg-[#D40E1F] md:w-[max-content] py-3 px-24 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold'>Get started</a> 
+        <Link href='/GetStarted' className='bg-[#D40E1F] md:w-[max-content] py-2 px-24 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold'>Get started</Link>
     </div>
   ) 
 }

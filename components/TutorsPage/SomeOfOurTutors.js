@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const TutorCard = ({ img, lastName, firstName, bio, faculty, linkedinUrl }) => {
   return (
-    <div className="flex items-center gap-5 w-96 bg-white p-3 rounded-3xl">
+    <div className="flex items-center gap-5 w-96 bg-white p-3 rounded-3xl self-stretch">
       <div className="flex flex-col shrink-0 basis-[30%] justify-between self-stretch">
         <Image
           height={120}
@@ -20,13 +20,13 @@ const TutorCard = ({ img, lastName, firstName, bio, faculty, linkedinUrl }) => {
           </div>
         </a>
       </div>
-      <div className="flex flex-col gap-3 ">
+      <div className="flex flex-col gap-3 self-stretch justify-between">
         <div>
           <h1 className=" font-daxlineBold text-sm">About Me</h1>
           <h1 className=" font-daxlineRegular text-sm">{bio}</h1>
         </div>
 
-        <div>
+        <div >
           <h1 className=" font-daxlineBold text-sm">Faculty</h1>
           <h1 className=" font-daxlineRegular text-sm">{faculty}</h1>
         </div>
@@ -136,14 +136,70 @@ const SomeOfOurTutors = () => {
           faculty={"Software Development"}
           linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
         />
-        {/* <TutorCard
-          img={"Waliyulahi Lukman.jpg"}
+
+        <TutorCard
+          img={"Adedotun Alausa.jpeg"}
           lastName={"Olamilekan"}
           firstName={"Animashaun"}
-          bio={"A seasoned professional with 10yrs+ in Software development and engineering. CTO, Caudal and Ex- Engineering Team Lead, CARS45"}
+          bio={"CTO, Caudal and Ex- Engineering Team Lead, CARS45"}
           faculty={"Software Development"}
           linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
-        /> */}
+        />
+
+        <TutorCard
+          img={"Adedotun Alausa.jpeg"}
+          lastName={"Okpara"}
+          firstName={"Obinna"}
+          bio={
+            "A software developer highly proficient in C#, ASP.NET, Restful Services, .NetCore, Solid principle, Microservices & SQL. An excellent communicator, who can relate well with people at all levels and has the flexibility of working well as part of a team and on my own."
+          }
+          faculty={"Software Development"}
+          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+        />
+
+        <TutorCard
+          img={"Adedotun Alausa.jpeg"}
+          lastName={"Newportright"}
+          firstName={"Angel"}
+          bio={
+            " I am a business and data analyst. I love using data analysis and its insights to drive software projects that innovates business processes for organizations."
+          }
+          faculty={"Data"}
+          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+        />
+
+        <TutorCard
+          img={"Adedotun Alausa.jpeg"}
+          lastName={"Adekanye"}
+          firstName={"Mariam"}
+          bio={
+            " I'm passionate about leveraging data to inform business decisions and drive growth. I possess a solid foundation in statistical analysis and data visualization, I excel at translating complex data into actionable insights that inform strategy and improve operations. "
+          }
+          faculty={"Data"}
+          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+        />
+
+        <TutorCard
+          img={"Adedotun Alausa.jpeg"}
+          lastName={"Ogundipe"}
+          firstName={"Olanrewaju"}
+          bio={
+            "i am a Dedicated and passionate HR/Data Analytics Enthusiast with a demonstrated history of working and volunteering in organization development. Skilled in HR Analytics with Microsoft Excel and Power BI, recruitment process, training and development, program coordination, policies development and employee relations with effective data management. Focused on integrating technology and HR functions to build a robust strategic HR system. "
+          }
+          faculty={"Data"}
+          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+        />
+
+        <TutorCard
+          img={"Adedotun Alausa.jpeg"}
+          lastName={"Ezeilo"}
+          firstName={"Chisom"}
+          bio={
+            "A Tableau Developer and data analyst who is interested in helping organizations tell stories from any form of data. I have spent the 3+ years building my skills through work experiences and staying updated within the analytics industry. I am skilled in using Tableau, R, SQL & Excel to make sense out of a large data set. Growing every day is a priority for me, so I engage myself by reviewing thought leadership articles within my space."
+          }
+          faculty={"Data"}
+          linkedinUrl={"https://www.linkedin.com/in/adedotun-alausa"}
+        />
       </div>
     </div>
   );

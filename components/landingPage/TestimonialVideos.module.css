@@ -1,4 +1,4 @@
-.btn_arrow {
+.btn_arrow.btn_arrow {
   font-size: 1rem;
   line-height: 0;
   position: absolute;
@@ -16,5 +16,5 @@
 }
 
 .btn_arrow::before {
-  content: "";
+  content: "" !important;
 }

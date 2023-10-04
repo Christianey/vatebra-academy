@@ -9,21 +9,21 @@ import { BsYoutube } from "react-icons/bs";
 
 import Slider from "react-slick";
 
-const Testimonial = ({
-  name,
-  title,
-  bgImage = "https://source.unsplash.com/GhKOvIAp7AE",
-}) => {
+const Testimonial = ({ name, title, bgImage, videoId }) => {
   const [isOpen, setOpen] = useState(false);
   const buttonClasses = `flex justify-center items-center min-w-full h-[200px] rounded-3xl md:rounded-[2rem] bg-no-repeat bg-center bg-cover bg-[#00000076] bg-blend-soft-light`;
 
   return (
     <div className="px-4 relative">
-      <button className={buttonClasses} style={{backgroundImage: `url(${bgImage})`}} onClick={() => setOpen(!isOpen)}>
+      <div
+        className={buttonClasses}
+        style={{ backgroundImage: `url('/${bgImage}')` }}
+        onClick={() => setOpen(!isOpen)}
+      >
         <div className="flex justify-center items-center rounded-full p-2 bg-red-600">
           <BsYoutube size={"1.5rem"} color="white" />
         </div>
-      </button>
+      </div>
       <div className="absolute bottom-7 left-8 text-white">
         <h5 className="font-bold text-[1.5rem]">{name}</h5>
         <p className="text-sm">{title}</p>
@@ -34,7 +34,7 @@ const Testimonial = ({
             channel="youtube"
             youtube={{ mute: 1, autoplay: 1 }}
             isOpen={isOpen}
-            videoId="lJkQmERWS-4"
+            videoId={videoId}
             onClose={() => setOpen(false)}
           />,
           document.body
@@ -105,17 +105,35 @@ const TestimonialVideos = () => {
             },
           ]}
         >
-          <Testimonial name="John Steve" title={"Graphics Design Student"} />
           <Testimonial
-            name="Joy Steve"
-            title={"Frontend Development Student"}
+            name="Abisola Fowosire"
+            title={"Product Manager"}
+            videoId={"iZl3svkB1NM"}
+            bgImage={"Abisola Fowosire.jpg"}
           />
-          <Testimonial name="Harry Ken" title={"Product Design Student"} />
           <Testimonial
-            name="John Mark"
-            title={"Frontend Development Student"}
+            name="Benedict Olakunle"
+            title={"Data Analyst"}
+            videoId={"VMnLe_8VSmo"}
+            bgImage={"Benedict Olakunle.jpg"}
           />
-          <Testimonial name="Jane Doe" title={"Backend Development Student"} />
+          <Testimonial
+            name="Busayo Ajakaiye"
+            title={"Data Analyst"}
+            videoId={"C0YWh7BVK8g"}
+            bgImage={"Busayo Ajakaiye.jpg"}
+          />
+          <Testimonial
+            name="Robert Ogirri"
+            title={"Data Analyst"}
+            videoId={"Z_WUZJsrk0M"}
+            bgImage={"Robert Ogirri.jpg"}
+          />
+          <Testimonial
+            name="Waliyulahi Lukman"
+            title={"Backend Development Student"}
+            bgImage={"Waliyulahi Lukman.jpg"}
+          />
         </Slider>
       </div>
     </div>
