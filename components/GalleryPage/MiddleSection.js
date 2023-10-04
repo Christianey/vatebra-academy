@@ -9,98 +9,98 @@ const MiddleSection = () => {
         <Image
           height={500}
           width={300}
-          src="/team.jpeg"
+          src="/Team.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team1.jpeg"
+          src="/Team1.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team2.jpeg"
+          src="/Team2.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team3.jpeg"
+          src="/Team3.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team4.jpeg"
+          src="/Team4.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team5.jpeg"
+          src="/Team5.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team6.jpeg"
+          src="/Team6.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team7.jpeg"
+          src="/Team7.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team8.jpeg"
+          src="/Team8.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team9.jpeg"
+          src="/Team9.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team10.jpeg"
+          src="/Team10.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team11.jpeg"
+          src="/Team11.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team12.jpeg"
+          src="/Team12.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
         <Image
           height={500}
           width={300}
-          src="/team13.jpeg"
+          src="/Team13.jpeg"
           alt="team"
           style={{ objectFit: "contain" }}
         />
