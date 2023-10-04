@@ -7,9 +7,9 @@ import "slick-carousel/slick/slick-theme.css";
 const Testimonial = ({ name, academy, testimony, image }) => {
   return (
     <div className={"bg-[#5CBF22] py-4 px-14 rounded-[2rem] m-4"}>
-      <div className="flex flex-col items-center gap-5">
+      <div className="flex flex-col items-center">
         <h1 className="text-white text-center">{testimony}</h1>
-        <Image width={150} height={150} src={`/${image}`} alt="avatars" />
+        <Image className="mt-5" width={150} height={150} src={`/${image}`} alt="avatars" />
         <div className="flex justify-center items-center gap-3 text-white">
           <h1 className=" font-daxlineMedium">{name}</h1>
           <div className=" h-5 w-1 bg-white"></div>
@@ -48,18 +48,31 @@ const Testimonials = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    initialSlide: 1,
     prevArrow: <Arrow />,
     nextArrow: <Arrow next={false} />,
   };
 
   return (
-    <div className=" grid relative place-content-center bg-[#F4E4C6]  mb-20 bg-transparent md:shadow-2xl md:mx-24 rounded-3xl md:rounded-[5rem] py-32">
-      <div className="shadow-2xl w-full bg-white p-5 rounded-3xl md:rounded-[5rem] relative md:w-[55rem] md:h-[30rem]">
-        <h1 className="text-center mb-5 px-10 font-daxlineBold text-3xl">
+    <div className="grid relative place-content-center bg-[#F4E4C6]  mb-20 bg-transparent md:shadow-2xl md:mx-24 rounded-3xl md:rounded-[5rem] py-32">
+      <div className="shadow-2xl w-full bg-white p-5 rounded-3xl md:rounded-[5rem] relative max-w-[80vw] md:max-w-[45rem] md:h-[30rem]">
+        <h1 className="text-center mb-5 px-10 font-daxlineBold text-xl sm:text-3xl">
           Testimonials from Alumni
         </h1>
         <div className="">
-          <Slider {...settings}>
+          <Slider
+            {...settings}
+            responsive={[
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  initialSlide: 1,
+                },
+              },
+            ]}
+          >
             <Testimonial
               name={"Busayo Ajakaiye"}
               academy={"Product Design"}
