@@ -138,7 +138,7 @@ const SomeOfOurTutors = () => {
         />
 
         <TutorCard
-          img={"Adedotun Alausa.jpeg"}
+          img={"Olalekan-Animashaun.jpg"}
           lastName={"Olamilekan"}
           firstName={"Animashaun"}
           bio={"CTO, Caudal and Ex- Engineering Team Lead, CARS45"}
@@ -149,7 +149,7 @@ const SomeOfOurTutors = () => {
         />
 
         <TutorCard
-          img={"Adedotun Alausa.jpeg"}
+          img={"Obinna Okpara.jpg"}
           lastName={"Okpara"}
           firstName={"Obinna"}
           bio={
@@ -159,7 +159,7 @@ const SomeOfOurTutors = () => {
         />
 
         <TutorCard
-          img={"Adedotun Alausa.jpeg"}
+          img={"Angel-Newportright.jpg"}
           lastName={"Newportright"}
           firstName={"Angel"}
           bio={
@@ -169,7 +169,7 @@ const SomeOfOurTutors = () => {
         />
 
         <TutorCard
-          img={"Adedotun Alausa.jpeg"}
+          img={"Mariam-Adekanye.jpg"}
           lastName={"Adekanye"}
           firstName={"Mariam"}
           bio={
@@ -180,7 +180,7 @@ const SomeOfOurTutors = () => {
         />
 
         <TutorCard
-          img={"Adedotun Alausa.jpeg"}
+          img={"Olanrewaju-Ogundipe.jpg"}
           lastName={"Ogundipe"}
           firstName={"Olanrewaju"}
           bio={
@@ -191,7 +191,7 @@ const SomeOfOurTutors = () => {
         />
 
         <TutorCard
-          img={"Adedotun Alausa.jpeg"}
+          img={"Chisom-Ezeilo.jpg"}
           lastName={"Ezeilo"}
           firstName={"Chisom"}
           bio={
