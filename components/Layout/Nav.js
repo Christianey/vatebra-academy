@@ -50,7 +50,7 @@ const Nav = () => {
           </Link>
           <div className=" hidden xl:flex uppercase font-daxlineRegular items-center relative gap-16 ">
             <Link href="/About">
-            <h1 className={` cursor-pointer ${page === 'about' && 'border-b-2 border-[#c81d25]'} hover:text-[#C81D25]`}>ABOUT</h1>
+            <h1 className={` cursor-pointer ${page === 'about' && 'border-b-2 border-[#c81d25]'} hover:text-[#C81D25]`}>ABOUT US</h1>
             </Link>
 
             <div onClick={() => onClick("schoolClick")} className="flex items-center gap-1">
