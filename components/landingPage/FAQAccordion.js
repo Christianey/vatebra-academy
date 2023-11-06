@@ -7,7 +7,6 @@ const FAQAccordion = () => (
   <Accordion.Root
     className="bg-mauve6 w-full space-y-4 my-6"
     type="single"
-    defaultValue="item-1"
     collapsible
   >
     <AccordionItem className="" value="item-1">
