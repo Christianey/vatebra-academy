@@ -1,5 +1,3 @@
-import { useState, useContext, useEffect } from "react";
-import Head from "next/head";
 import Hero from "@/components/landingPage/Hero";
 import WhyVatebra from "@/components/landingPage/WhyVatebra";
 import Characteristics from "@/components/landingPage/Characteristics";
@@ -9,12 +7,8 @@ import BusinessTraining from "@/components/landingPage/BusinessTraining";
 import LearningModel from "@/components/landingPage/LearningModel";
 import Cohorts from "@/components/landingPage/Cohorts";
 import Testimonials from "@/components/landingPage/Testimonials";
-import Partner from "@/components/landingPage/Partner";
 import TestimonialVideos from "@/components/landingPage/TestimonialVideos";
-
-// import { Inter } from '@next/font/google'
-
-// const inter = Inter({ subsets: ['latin'] })
+import PartnersAndFAQs from "@/components/landingPage/PartnersAndFAQs";
 
 export default function Home() {
   return (
@@ -30,7 +24,7 @@ export default function Home() {
         <BusinessTraining />
         <LearningModel />
         <Cohorts />
-        <Partner />
+        <PartnersAndFAQs />
       </main>
     </>
   );
