@@ -32,7 +32,28 @@ const FAQAccordion = () => (
         practical skills and increase your job prospects in the technology
         sector. We also provide an internship program to help you kickstart your
         career and gain real-life industry experience after your training
-        program.
+        program. <br />
+        <p>Other benefits include:</p>
+        <ol className="list-decimal list-inside [&>li]:ml-4">
+          <li>
+            Capstone Projects that have been co-created with Industry
+            Professionals and companies to consolidate your learning.
+          </li>
+          <li>Extra Session: 4-hour Hackathons with technology leaders.</li>
+          <li>
+            Extra Session: 3 hours of Online Consulting Practice – LinkedIn
+            Optimization Session, CV Reviews, and Demo Interviews.
+          </li>
+          <li>
+            Certification: Vatebra Certificate Recognized across Africa, in the
+            US, and UK. We also work with our students to get globally
+            recognized certificates in respective fields.
+          </li>
+          <li>
+            Internship to help you build your portfolio and get real-life
+            practice.
+          </li>
+        </ol>
       </AccordionContent>
     </AccordionItem>
 

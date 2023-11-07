@@ -76,10 +76,10 @@
   overflow: hidden;
 }
 .AccordionContent[data-state='open'] {
-  animation: slideDown 300ms ease-out;
+  animation: slideDown 100ms ease-out;
 }
 .AccordionContent[data-state='closed'] {
-  animation: slideUp 300ms ease-out;
+  animation: slideUp 100ms ease-out;
 }
 
 @keyframes slideDown {
