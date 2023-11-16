@@ -2,13 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const ProgramCard = ({
-  name,
-  fileName,
-  onClickAction,
-  discountPrice,
-  price,
-}) => {
+const ProgramCard = ({ name, fileName, discountPrice, price }) => {
   const percentage = (((discountPrice - price) / price) * 100).toFixed();
 
   return (
@@ -27,10 +21,7 @@ const ProgramCard = ({
             <h5 className="font-bold text-[#787676] self-end">Pay {price}</h5>
           </div>
         </div>
-        <h1
-          onClick={onClickAction}
-          className="mt-6 text-lg font-daxlineBold hover:underline cursor-pointer"
-        >
+        <h1 className="mt-6 text-lg font-daxlineBold hover:underline cursor-pointer">
           Program details
         </h1>
       </div>
@@ -42,6 +33,7 @@ const ProgramCard = ({
           download="Vatebra Data Brooder"
           href={fileName}
           className="text-base hover:bg-gray-500 cursor-pointer bg-gray-400 text-black font-daxlineBold px-7 py-3 rounded-lg flex gap-5"
+          target="_blank"
         >
           <h1 className="text-white">Download broachure</h1>
           <Image height={20} width={28} alt="line" src="/downloadLogo.svg" />
@@ -82,7 +74,6 @@ const MakePayment = () => {
           <ProgramCard
             name="DATA BROODER"
             fileName={"/Vatebra Data Brooder.pdf"}
-            onClickAction={() => setShowDataBrooderModal(!showDataBrooderModal)}
             discountPrice={"60000"}
             price={"36000"}
             percentage={"40"}
@@ -301,15 +292,14 @@ const MakePayment = () => {
                   >
                     Go back
                   </button>
-                  <button
+                  <Link
                     className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
-                    onClick={() => {
-                      setShowModal(true), setShowDataBrooderModal(false);
-                    }}
+                    target="_blank"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
                   >
                     Proceed to payment
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -492,15 +482,14 @@ const MakePayment = () => {
                   >
                     Go back
                   </button>
-                  <button
+                  <Link
                     className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
-                    onClick={() => {
-                      setShowModal(true), setShowModal2(false);
-                    }}
+                    target="_blank"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
                   >
                     Proceed to payment
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
