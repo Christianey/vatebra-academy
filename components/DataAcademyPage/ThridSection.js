@@ -288,7 +288,8 @@ const ThridSection = () => {
                     Go back
                   </button>
                   <Link
-                    href="https://paystack.com/pay/f7jf3lscts"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                     className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
                     // onClick={() => {setShowModal(true), setShowDataAnalyticsModal(false)}}
@@ -381,7 +382,8 @@ data science in ways that no other program has ever done. "
                     Go back
                   </button>
                   <Link
-                    href="https://paystack.com/pay/f7jf3lscts"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                     className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
                     // onClick={() => {setShowModal(true), setShowDataAnalyticsModal(false)}}
@@ -473,7 +475,8 @@ created business-focused data analytics learning materials."
                     Go back
                   </button>
                   <Link
-                    href="https://paystack.com/pay/f7jf3lscts"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                     className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
                     // onClick={() => {setShowModal(true), setShowDataAnalyticsModal(false)}}
@@ -566,7 +569,8 @@ created business-focused data analytics learning materials. "
                     Go back
                   </button>
                   <Link
-                    href="https://paystack.com/pay/f7jf3lscts"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                     className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="submit"
                     // onClick={() => {setShowModal(true), setShowDataAnalyticsModal(false)}}

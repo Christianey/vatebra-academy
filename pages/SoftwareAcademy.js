@@ -5,7 +5,6 @@ import { useState, useContext, useEffect } from "react";
 import context from "../context/stateContext";
 import Link from "next/link";
 import LearningModel from "@/components/landingPage/LearningModel";
-import OurPrograms from "@/components/landingPage/OurPrograms";
 import ValuableInsights from "@/components/getStartedPage/ValuableInsights";
 
 const SoftwareAcademy = () => {
@@ -51,12 +50,13 @@ const SoftwareAcademy = () => {
                                  <h1 className='text-white'>Download broachure</h1>
                                  <Image height={20} width={28} alt='line' src="/downloadLogo.svg" />
                             </div> */}
-                  <h1
-                    onClick={() => setShowModal(!showModal)}
+                  <a
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                     className="bg-[#D40E1F] mx-auto md:mx-0 text-white hover:bg-black font-daxlineRegular cursor-pointer max-w-fit px-20 py-3 rounded-lg"
                   >
                     Get Started
-                  </h1>
+                  </a>
                 </div>
               </div>
             </div>
@@ -107,6 +107,7 @@ const SoftwareAcademy = () => {
                       />
                     </Link>
                     <Link
+                      target="_blank"
                       href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
                       className="bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg"
                     >
@@ -145,6 +146,7 @@ const SoftwareAcademy = () => {
                       />
                     </Link>
                     <Link
+                      target="_blank"
                       href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
                       className="bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg"
                     >
@@ -185,6 +187,7 @@ const SoftwareAcademy = () => {
                       />
                     </Link>
                     <Link
+                      target="_blank"
                       href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
                       className="bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg"
                     >
@@ -216,6 +219,7 @@ const SoftwareAcademy = () => {
                       />
                     </div>
                     <Link
+                      target="_blank"
                       href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
                       className="bg-[#D40E1F] font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg"
                     >
@@ -256,12 +260,12 @@ const SoftwareAcademy = () => {
                   in-class technology experts.
                 </h1>
 
-                <h1
-                  onClick={() => setShowModal(!showModal)}
+                <Link
+                  href="/GetStarted"
                   className="bg-[#D40E1F] md:w-[max-content] py-3 px-24 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold"
                 >
                   Get started
-                </h1>
+                </Link>
               </div>
             </div>
           </div>
@@ -362,15 +366,17 @@ the time this program is over"
                   >
                     Go back
                   </button>
-                  <button
-                    className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="submit"
-                    onClick={() => {
-                      setShowModal(true), setFrontendModal(false);
-                    }}
+                  <Link
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                   >
-                    Proceed to payment
-                  </button>
+                    <button
+                      className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="submit"
+                    >
+                      Proceed to payment
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -452,15 +458,17 @@ Key Competencies: Cover letter, Industry-standard CV, Interview Demo-Class, Link
                   >
                     Go back
                   </button>
-                  <button
-                    className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="submit"
-                    onClick={() => {
-                      setShowModal(true), setBackendModal(false);
-                    }}
+                  <Link
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                   >
-                    Proceed to payment
-                  </button>
+                    <button
+                      className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="submit"
+                    >
+                      Proceed to payment
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -542,15 +550,17 @@ Key Competencies: Cover letter, Industry-standard CV, Interview Demo-Class, Link
                   >
                     Go back
                   </button>
-                  <button
-                    className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="submit"
-                    onClick={() => {
-                      setShowModal(true), setFullstackModal(false);
-                    }}
+                  <Link
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                   >
-                    Proceed to payment
-                  </button>
+                    <button
+                      className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="submit"
+                    >
+                      Proceed to payment
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -636,206 +646,17 @@ the time this program is over"
                   >
                     Go back
                   </button>
-                  <button
-                    className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="submit"
-                    onClick={() => {
-                      setShowModal(true), setFrontendModal(false);
-                    }}
+                  <Link
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
+                    target="_blank"
                   >
-                    Proceed to payment
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-        </>
-      ) : null}
-
-      {showModal ? (
-        <>
-          <div className="justify-center z-[50000] items-center flex overflow-x-hidden bg-black bg-opacity-70 overflow-y-auto fixed inset-0 outline-none focus:outline-none">
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full p-5 bg-white outline-none focus:outline-none">
-                {/*header*/}
-                <div className="flex items-start justify-between p-5 rounded-t">
-                  <h3 className="text-2xl font-daxlineBold font-semibold">
-                    Personal Information
-                  </h3>
-                </div>
-                {/*body*/}
-                <div className="relative font-daxlineBold p-6 flex-auto">
-                  <form className="flex flex-col gap-7 md:gap-10 ">
-                    <div className="flex flex-col md:flex-row gap-5">
-                      <div>
-                        <h1 className="mb-3 opacity-75">First name</h1>
-                        <input
-                          type="text"
-                          placeholder="Enter your first name"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                      <div>
-                        <h1 className="mb-3 opacity-75">Last name</h1>
-                        <input
-                          placeholder="Enter your last name"
-                          type="text"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col md:flex-row gap-5">
-                      <div>
-                        <h1 className="mb-3 opacity-75">Email Address</h1>
-                        <input
-                          type="email"
-                          placeholder="Enter your email address"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                      <div>
-                        <h1 className="mb-3 opacity-75">Phone Number</h1>
-                        <input
-                          placeholder="Enter your phone number"
-                          type="number"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col md:flex-row gap-5">
-                      <div>
-                        <h1 className="mb-3 opacity-75">Occupation</h1>
-                        <input
-                          type="email"
-                          placeholder="Enter your email address"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                      <div>
-                        <h1 className="mb-3 opacity-75">Location</h1>
-                        <input
-                          placeholder="Enter your phone number"
-                          type="number"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                    </div>
-                  </form>
-                  {/* <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                                    I always felt like I could do anything. That’s the main
-                                    thing people are controlled by! Thoughts- their perception
-                                    of themselves! Theyre slowed down by their perception of
-                                    themselves. If youre taught you can’t do anything, you
-                                    won’t do anything. I was taught I could do everything.
-                                </p> */}
-                </div>
-                {/*footer*/}
-                <div className="flex items-center justify-start p-6 rounded-b">
-                  <button
-                    className="text-black opacity-80 background-transparent order-1 font-bold px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Go back
-                  </button>
-                  <button
-                    className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="submit"
-                    onClick={() => {
-                      setShowModal2(true), setShowModal(false);
-                    }}
-                  >
-                    Proceed to payment
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-        </>
-      ) : null}
-
-      {showModal2 ? (
-        <>
-          <div className="justify-center z-[50000] items-center flex overflow-x-hidden bg-black bg-opacity-70 overflow-y-auto fixed inset-0 outline-none focus:outline-none">
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full p-5 bg-white outline-none focus:outline-none">
-                {/*header*/}
-                <div className="flex items-start justify-between p-5 rounded-t">
-                  <h3 className="text-2xl font-daxlineBold font-semibold">
-                    Personal Information
-                  </h3>
-                </div>
-                {/*body*/}
-                <div className="relative font-daxlineBold p-6 flex-auto">
-                  <form className="flex flex-col gap-7 md:gap-10 ">
-                    <div className="flex flex-col md:flex-row gap-5">
-                      <div>
-                        <h1 className="mb-3 opacity-75">First name</h1>
-                        <input
-                          type="text"
-                          placeholder="Enter your first name"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                      <div>
-                        <h1 className="mb-3 opacity-75">Last name</h1>
-                        <input
-                          placeholder="Enter your last name"
-                          type="text"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col md:flex-row gap-5">
-                      <div>
-                        <h1 className="mb-3 opacity-75">Enter card number</h1>
-                        <input
-                          type="number"
-                          placeholder="Enter your card number"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                      <div>
-                        <h1 className="mb-3 opacity-75">Enter CVV</h1>
-                        <input
-                          placeholder="Enter your CVV"
-                          type="tel"
-                          className="rounded-xl p-3 px-8"
-                        />
-                      </div>
-                    </div>
-                  </form>
-                  {/* <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                            I always felt like I could do anything. That’s the main
-                            thing people are controlled by! Thoughts- their perception
-                            of themselves! Theyre slowed down by their perception of
-                            themselves. If youre taught you can’t do anything, you
-                            won’t do anything. I was taught I could do everything.
-                        </p> */}
-                </div>
-                {/*footer*/}
-                <div className="flex items-center justify-start p-6 rounded-b">
-                  <button
-                    className="text-black opacity-80 background-transparent order-1 font-bold px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal2(false)}
-                  >
-                    Go back
-                  </button>
-                  <button
-                    className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="submit"
-                    // onClick={() => setShowModal(false)}
-                  >
-                    Proceed
-                  </button>
+                    <button
+                      className="bg-[#D40E1F] text-white active:bg-emerald-600 px-14 cursor-pointer font-bold uppercase text-sm py-3 rounded-lg shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="submit"
+                    >
+                      Proceed to payment
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

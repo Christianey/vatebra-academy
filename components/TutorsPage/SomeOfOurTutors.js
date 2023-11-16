@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { BsLinkedin } from "react-icons/bs";
 
 const TutorCard = ({ img, lastName, firstName, bio, faculty, linkedinUrl }) => {
   return (
@@ -13,11 +14,12 @@ const TutorCard = ({ img, lastName, firstName, bio, faculty, linkedinUrl }) => {
           className="rounded-lg"
         />
 
-        <a href={linkedinUrl} target="_blank">
+        <a className="flex items-center gap-2" href={linkedinUrl} target="_blank">
           <div className="">
             <p className="font-bold leading-3 text-[1.3rem]">{lastName}</p>
             <p>{firstName}</p>
           </div>
+          <BsLinkedin />
         </a>
       </div>
       <div className="flex flex-col gap-3 self-stretch justify-between">
