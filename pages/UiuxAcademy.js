@@ -5,8 +5,9 @@ import { useState, useContext, useEffect } from "react";
 import context from "../context/stateContext";
 import Link from "next/link";
 import LearningModel from "@/components/landingPage/LearningModel";
+import { ProgramCard } from "./SoftwareAcademy";
 
-const ProductAcademy = () => {
+const UiuxAcademy = () => {
   const { page, setPage } = useContext(context);
   const [showModal, setShowModal] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
@@ -24,46 +25,21 @@ const ProductAcademy = () => {
         <div className="relative">
           <div className="grid place-items-center">
             <div className="px-5 pt-10 md:pt-10 justify-center text-center xl:text-left md:px-24 flex flex-col xl:flex-row items-center md:justify-between gap-10 md:gap-10 md:my-20">
-              <div className="z-[10000]">
-                <Image
-                  height={703}
-                  width={600}
-                  alt="hero img"
-                  src="/notAlone.svg"
-                />
-              </div>
-
-              <div className=" flex flex-col max-w-lg gap-6">
-                <h1 className="text-[#030303] font-daxlineBold text-xl max-w-4xl  md:text-2xl">
-                  This 2 –month training is designed by top professionals to
-                  provide in-depth knowledge to beginners while also
-                  establishing a leading industry relationship that leads to job
-                  opportunities
-                </h1>
-                <div className="flex mx-auto md:mx-0 flex-col md:flex-row max-w-fit gap-5">
-                  <Link
-                    target="_blank"
-                    href="/Product-Academy.pdf"
-                    className="text-base hover:bg-[#6a6363] cursor-pointer bg-[#ACACAC] text-black font-daxlineBold px-7 py-3 rounded-lg flex gap-5"
-                  >
-                    <h1 className="text-white">Download brochure</h1>
-                    <Image
-                      height={20}
-                      width={28}
-                      alt="line"
-                      src="/downloadLogo.svg"
-                    />
-                  </Link>
-                  {/* <h1 onClick={()=> setShowModal(!showModal)} className='bg-[#D40E1F] mx-auto md:mx-0 text-white hover:bg-black font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg'>Pay now</h1> */}
-                  <Link
-                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
-                    target="_blank"
-                    className="bg-[#D40E1F] mx-auto md:mx-0 text-white hover:bg-black font-daxlineRegular cursor-pointer max-w-fit px-10 py-3 rounded-lg"
-                  >
-                    Pay now
-                  </Link>
-                </div>
-              </div>
+              <ProgramCard
+                courseName={"UI/UX Design"}
+                courseDetails={
+                  "Our Product Design program is meticulously crafted by industry experts to equip you with the latest skills in design thinking, sketching, wireframing, and prototyping. This project-based learning experience is designed to help you develop the skills needed to create exceptional user experiences for digital products."
+                }
+                courseOutline={"User Research & Information Architecture, Wireframing and Testing Plan, Sketching and Wireframing, Functional Prototypes"}
+                duration={"8 weeks"}
+                bookLink="/Data-Academy.pdf"
+                times={[
+                  "Saturdays: 10:00 AM - 1:00 PM WAT",
+                  "Sundays: 2:00 PM - :500 PM",
+                ]}
+                bg={"#E2AF3F"}
+                shadow={"0 2px 4px rgba(0, 0, 0, 0.2)"}
+              />
             </div>
           </div>
         </div>
@@ -114,8 +90,6 @@ const ProductAcademy = () => {
                   desire.
                 </h1>
 
-                {/* <h1 onClick={()=> setShowModal(!showModal)} className='bg-[#D40E1F] md:w-[max-content] py-3 px-24 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold'>Get started</h1>  */}
-
                 <Link
                   href="/GetStarted"
                   className="bg-[#D40E1F] md:w-[max-content] py-3 px-24 hover:bg-black rounded-lg mx-auto xl:mx-0 text-white font-daxlineBold"
@@ -126,23 +100,6 @@ const ProductAcademy = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className=' bg-[#5CBF22] px-5 md:px-24 py-10 flex flex-col gap-10'>
-            <div className='grid place-items-center'>
-                <h1 className=' font-daxlineBold text-3xl text-white'>Product Management Programs</h1>
-                <div className='h-1 w-[27rem] md:w-[35rem] rounded-3xl bg-white'></div>
-            </div>
-            <main className='flex flex-wrap justify-around gap-10'>
-                <div className='flex flex-col gap-10'>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                </div>
-                <div className='flex flex-col gap-10'>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                </div>
-            </main>
-        </div> */}
 
         <LearningModel />
       </div>
@@ -219,13 +176,6 @@ const ProductAcademy = () => {
                       </div>
                     </div>
                   </form>
-                  {/* <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                                    I always felt like I could do anything. That’s the main
-                                    thing people are controlled by! Thoughts- their perception
-                                    of themselves! Theyre slowed down by their perception of
-                                    themselves. If youre taught you can’t do anything, you
-                                    won’t do anything. I was taught I could do everything.
-                                </p> */}
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-start p-6 rounded-b">
@@ -306,13 +256,6 @@ const ProductAcademy = () => {
                       </div>
                     </div>
                   </form>
-                  {/* <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                            I always felt like I could do anything. That’s the main
-                            thing people are controlled by! Thoughts- their perception
-                            of themselves! Theyre slowed down by their perception of
-                            themselves. If youre taught you can’t do anything, you
-                            won’t do anything. I was taught I could do everything.
-                        </p> */}
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-start p-6 rounded-b">
@@ -341,4 +284,4 @@ const ProductAcademy = () => {
   );
 };
 
-export default ProductAcademy;
+export default UiuxAcademy;
