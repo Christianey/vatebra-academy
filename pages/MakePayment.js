@@ -4,11 +4,12 @@ import Image from "next/image";
 
 const ProgramCard = ({
   name,
-  fileName,
+  fileName = "#",
   discountPrice,
   price,
   modalContent,
   courseOutline,
+  times = [],
 }) => {
   const [showModal, setShowModal] = useState(false);
   const percentage = (((discountPrice - price) / price) * 100).toFixed();
@@ -44,14 +45,13 @@ const ProgramCard = ({
 
         <div className="flex mx-auto md:mx-0 flex-col md:flex-row max-w-fit gap-5 border-t-2 border-gray-500 py-5">
           <Link
-            download="Vatebra Data Brooder"
+            target="_blank"
             href={fileName}
             className="text-base hover:bg-gray-500 cursor-pointer bg-gray-400 text-black font-daxlineBold px-7 py-3 rounded-lg flex gap-5"
           >
             <h1 className="text-white">Download broachure</h1>
             <Image height={20} width={28} alt="line" src="/downloadLogo.svg" />
           </Link>
-          {/* <h1 onClick={()=> setShowModal2(!showModal2)} className='bg-[#D40E1F] mx-auto md:mx-0 font-daxlineRegular cursor-pointer max-w-fit text-white hover:bg-slate-700 px-10 py-3 rounded-lg'>Pay now</h1> */}
           <Link
             target="_blank"
             href="https://forms.office.com/Pages/ResponsePage.aspx?id=Mh3BWZEh3UuZrgByGktfMuEqhVoLQSNMpCGgmLjyMttUOVRWOFJQR01GMVhXV0w1S0RKMTBEOFZQMS4u"
@@ -83,17 +83,27 @@ const ProgramCard = ({
                       </div>
                       <div>
                         <h1 className=" font-daxlineBold mb-5 text-2xl">
-                          Classes
+                          Virtual Live Classes
                         </h1>
-                        <h1 className="mb-3 font-daxlineMedium text-sm opacity-75">
-                          Weekdays - 10:00AM - 12:00AM
-                        </h1>
-                        <h1 className="mb-3 font-daxlineMedium text-sm opacity-75">
-                          Weekdays - 10:00AM - 12:00AM
-                        </h1>
-                        <h1 className="mb-3 font-daxlineMedium text-sm opacity-75">
-                          Weekdays - 10:00AM - 12:00AM
-                        </h1>
+                        {times?.length > 0 ? (
+                          times?.map((time) => (
+                            <h1 className="mb-3 font-daxlineMedium text-sm  opacity-75">
+                              {time}
+                            </h1>
+                          ))
+                        ) : (
+                          <>
+                            <h1 className="mb-3 font-daxlineMedium text-sm opacity-75">
+                              Weekdays - 10:00AM - 12:00AM
+                            </h1>
+                            <h1 className="mb-3 font-daxlineMedium text-sm opacity-75">
+                              Weekdays - 10:00AM - 12:00AM
+                            </h1>
+                            <h1 className="mb-3 font-daxlineMedium text-sm opacity-75">
+                              Weekdays - 10:00AM - 12:00AM
+                            </h1>
+                          </>
+                        )}
                       </div>
                     </div>
 
@@ -213,9 +223,14 @@ const MakePayment = () => {
             name="PRODUCT MANAGEMENT"
             fileName={"/Product-Academy.pdf"}
             discountPrice={"120000"}
+            courseOutline={
+              "Product Management Fundamentals, Design Consciousness/Thinking, Product Design, Building and Refining Products, Agile Execution - Scrum Framework & Methodology, Product Strategy, Metrics for Product Managers, Product Launch"
+            }
             price={"72000"}
             percentage={"40"}
-            modalContent={""}
+            modalContent={
+              "Unlock your potential and fast-track your journey from Enthusiast/Zero Level to a skilled Product Manager ready to shape the future of world-class products. Our intensive training, meticulously crafted by industry professionals, not only imparts in-depth knowledge but also establishes valuable industry relationships that pave the way for exciting job opportunities."
+            }
           />
 
           <ProgramCard
@@ -224,7 +239,16 @@ const MakePayment = () => {
             discountPrice={"60000"}
             price={"36000"}
             percentage={"40"}
-            modalContent={""}
+            modalContent={
+              "Our Product Design program is meticulously crafted by industry experts to equip you with the latest skills in design thinking, sketching, wireframing, and prototyping. This project-based learning experience is designed to help you develop the skills needed to create exceptional user experiences for digital products."
+            }
+            courseOutline={
+              "User Research & Information Architecture, Wireframing and Testing Plan, Sketching and Wireframing, Functional Prototypes"
+            }
+            times={[
+              "Saturdays: 10:00 AM - 1:00 PM WAT",
+              "Sundays: 2:00 PM - 5:00 PM",
+            ]}
           />
         </div>
 
@@ -243,7 +267,16 @@ const MakePayment = () => {
             discountPrice={"210000"}
             price={"126000"}
             percentage={"40"}
-            modalContent={""}
+            modalContent={
+              "Embark on an immersive journey from Enthusiast/Zero Level to a skilled Software Developer ready to craft world-class tech solutions. Our intensive 12-week training, conducted on weekends, combines hands-on learning and in-depth knowledge, crafted by top professionals. Get ready to build entire websites from scratch, master software engineering fundamentals, and acquire the art of productive teamwork.v"
+            }
+            courseOutline={
+              "Basics of User Interface & Introduction to UI/UX, Product Design: Design Sprint Overview, Future Steps: Implement a Design Sprint, Formatting/Markup & Styling, JavaScript Web: Functions & Events, Working with API & JSON, REACT.JS, Work on Capstone Projects, Develop and Present Your Software Portfolio Plan, Vatebra Academy Software Development Certification"
+            }
+            times={[
+              "Saturdays: 10:00 AM - 1:00 PM WAT",
+              "Sundays: 2:00 PM - :500 PM",
+            ]}
           />
 
           <ProgramCard
@@ -252,7 +285,13 @@ const MakePayment = () => {
             discountPrice={"210000"}
             price={"126000"}
             percentage={"40"}
-            modalContent={""}
+            modalContent={
+              "Transform from an Enthusiast/Zero Level to a skilled Software Developer ready to craft cutting-edge tech solutions. Our intensive 12-week training, conducted exclusively on weekends, combines hands-on learning with in-depth knowledge designed by top professionals. Learn how to create entire websites from scratch, mastering software engineering fundamentals, and honing the art of productive teamwork."
+            }
+            courseOutline={
+              "Rudiments of JavaScript, Working with API & JSON, NODEJS & EXPRESS JS, Problem Solving, Formation Methods: Learn by solving actual situations."
+            }
+            times={["Saturdays: 10 am - 2 pm", "Sundays: 2 pm - 5 pm"]}
           />
 
           <ProgramCard
@@ -261,16 +300,26 @@ const MakePayment = () => {
             discountPrice={"375000"}
             price={"225000"}
             percentage={"40"}
-            modalContent={""}
+            modalContent={
+              "Transform from an Enthusiast/Zero Level to a skilled Software Developer ready to craft cutting-edge tech solutions. Our intensive 12-week training, conducted exclusively on weekends, combines hands-on learning with in-depth knowledge designed by top professionals. Learn how to create entire websites from scratch, mastering software engineering fundamentals, and honing the art of productive teamwork."
+            }
+            courseOutline={
+              "Basics of User Interface, Introduction to UI/UX, Design Thinking, Product Design, Formatting/Markup & Styling, Introduction to JavaScript, Problem Solving for REACT.JS, Debugging: Using the Chrome Developer Tools/Peer to Peer Session, ●	Introduction to NodeJS & ExpressJS,ExpressJs: CRUD operations on Database,ExpressJs: Searching the database for blog Pagination, Using NPM and Packages, Building and publishing an NPM package"
+            }
+            times={["Saturdays: 10 am - 2 pm", "Sundays: 2 pm - 5 pm"]}
           />
 
           <ProgramCard
             name="DOT NET STACK PROGRAMMING"
-            fileName={"/Vatebra Data Brooder.pdf"}
             discountPrice={"425000"}
             price={"255000"}
             percentage={"40"}
-            modalContent={""}
+            modalContent={
+              "Are you ready to embark on a journey from coding novice to a programming powerhouse? Vatebra Academy's Full Stack C# .NET program is designed to elevate your skills and prepare you for an entry-level position as a full-stack developer. In just 12-14 weeks, you will master the .NET programming framework, heavily integrated with C#, and gain the expertise needed to build robust tech solutions."
+            }
+            courseOutline={
+              "Basics of Coding with C#, SQL - Data Structures, Web Application Architecture, Building Frontends for Interactive Web Apps, Full Stack C# .NET Syllabus"
+            }
           />
         </div>
 

@@ -127,23 +127,6 @@ const ProductAcademy = () => {
           </div>
         </div>
 
-        {/* <div className=' bg-[#5CBF22] px-5 md:px-24 py-10 flex flex-col gap-10'>
-            <div className='grid place-items-center'>
-                <h1 className=' font-daxlineBold text-3xl text-white'>Product Management Programs</h1>
-                <div className='h-1 w-[27rem] md:w-[35rem] rounded-3xl bg-white'></div>
-            </div>
-            <main className='flex flex-wrap justify-around gap-10'>
-                <div className='flex flex-col gap-10'>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                </div>
-                <div className='flex flex-col gap-10'>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                    <h1 className='bg-white p-5 rounded-xl text-xl font-daxlineBold px-32'>Design Thinking</h1>
-                </div>
-            </main>
-        </div> */}
-
         <LearningModel />
       </div>
 
@@ -219,13 +202,7 @@ const ProductAcademy = () => {
                       </div>
                     </div>
                   </form>
-                  {/* <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                                    I always felt like I could do anything. That’s the main
-                                    thing people are controlled by! Thoughts- their perception
-                                    of themselves! Theyre slowed down by their perception of
-                                    themselves. If youre taught you can’t do anything, you
-                                    won’t do anything. I was taught I could do everything.
-                                </p> */}
+  
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-start p-6 rounded-b">
@@ -306,13 +283,7 @@ const ProductAcademy = () => {
                       </div>
                     </div>
                   </form>
-                  {/* <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                            I always felt like I could do anything. That’s the main
-                            thing people are controlled by! Thoughts- their perception
-                            of themselves! Theyre slowed down by their perception of
-                            themselves. If youre taught you can’t do anything, you
-                            won’t do anything. I was taught I could do everything.
-                        </p> */}
+               
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-start p-6 rounded-b">
