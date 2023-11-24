@@ -6,6 +6,8 @@ import context from "../context/stateContext";
 import Link from "next/link";
 import LearningModel from "@/components/landingPage/LearningModel";
 import { ProgramCard } from "./SoftwareAcademy";
+import UIUXAcademyPage from "@/components/UIUXAcademyPage/UIUXAcademyPage";
+import ExperienceProfessional from "@/components/UIUXAcademyPage/ExperienceProfessional";
 
 const UiuxAcademy = () => {
   const { page, setPage } = useContext(context);
@@ -20,40 +22,18 @@ const UiuxAcademy = () => {
   return (
     <>
       <div className="w-full">
-        <ProductAcademyPage />
+        {/* <ProductAcademyPage /> */}
+        <UIUXAcademyPage/>
+        <ExperienceProfessional/>
 
-        <div className="relative">
-          <div className="grid place-items-center">
-            <div className="px-5 pt-10 md:pt-10 justify-center text-center xl:text-left md:px-24 flex flex-col xl:flex-row items-center md:justify-between gap-10 md:gap-10 md:my-20">
-              <ProgramCard
-                courseName={"UI/UX Design"}
-                courseDetails={
-                  "Our Product Design program is meticulously crafted by industry experts to equip you with the latest skills in design thinking, sketching, wireframing, and prototyping. This project-based learning experience is designed to help you develop the skills needed to create exceptional user experiences for digital products."
-                }
-                courseOutline={"User Research & Information Architecture, Wireframing and Testing Plan, Sketching and Wireframing, Functional Prototypes"}
-                duration={"8 weeks"}
-                bookLink="/Data-Academy.pdf"
-                times={[
-                  "Saturdays: 10:00 AM - 1:00 PM WAT",
-                  "Sundays: 2:00 PM - :500 PM",
-                ]}
-                bg={"#E2AF3F"}
-                shadow={"0 2px 4px rgba(0, 0, 0, 0.2)"}
-              />
-            </div>
-          </div>
-        </div>
+ 
 
         <div className="flex bg-[#ECEDEB] py-20 flex-col text-center px-5 md:px-24 justify-center items-center mt-32 gap-5">
           <h1 className="md:w-[30rem] font-daxlineBold text-2xl">
-            Learn from seasoned industry experts <br /> and develop the ability
-            to drive successful products.
+          Build and Showcase Your UI/UX Portfolio Project
           </h1>
           <h1 className="md:w-[45rem] font-daxlineMedium text-lg">
-            Product Managers are in charge of owning a product at every stage of
-            its life cycle, from ideation to market success. To lead products
-            and features to long term success, balance business viability,
-            technical feasibility, and customer desire.
+          To earn your Product Design certification, showcase everything you've learned in a pitch presentation where experts evaluate your new product design skillset. Receive clear steps every week to iteratively develop your final project. By the course end, you'll have a formal product design proposal presentation, demonstrating your end-to-end product, thought processes, design processes, and implementation.
           </h1>
 
           <Link
@@ -78,16 +58,22 @@ const UiuxAcademy = () => {
 
               <div className=" flex flex-col max-w-lg gap-6">
                 <h1 className=" text-xl font-daxlineExtraBold">
-                  Accelerate Your Product Management Career; Learn the Best
-                  Product Management Practices, Led by Experienced Product
-                  Leaders
+                  How you will learn
                 </h1>
                 <h1 className="text-[#030303] font-daxlineMedium text-base opacity-80 max-w-4xl  md:text-xl">
-                  Product Managers are in charge of owning a product at every
-                  stage of its life cycle, from ideation to market success. To
-                  lead products and features to long term success, balance
-                  business viability, technical feasibility, and customer
-                  desire.
+                Learning Model: A 3-week experiential learning and hands-on training session.
+                </h1>
+                <h1 className="text-[#030303] font-daxlineMedium text-base opacity-80 max-w-4xl  md:text-xl">
+                Training Methodology: Learn through real-life business cases.
+                </h1>
+                <h1 className="text-[#030303] font-daxlineMedium text-base opacity-80 max-w-4xl  md:text-xl">
+                Product Design: Work in a team to develop a product prototype.
+                </h1>
+                <h1 className="text-[#030303] font-daxlineMedium text-base opacity-80 max-w-4xl  md:text-xl">
+                Design Lab: Three different sessions of 3 hours of a coffee shop hangout with colleagues.
+                </h1>
+                <h1 className="text-[#030303] font-daxlineMedium text-base opacity-80 max-w-4xl  md:text-xl">
+                Alumni Network: Join an ecosystem of talents and connect with leading employers.
                 </h1>
 
                 <Link
